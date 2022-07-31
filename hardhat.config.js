@@ -7,9 +7,10 @@ require("hardhat-contract-sizer");
 require("dotenv").config();
 
 const RINKEBY_RPC_URL = process.env.RINKEBY_RPC_URL || "https://demourl.com";
-const PRIVATE_KEY = process.env.PRIVATE_KEY || "0";
-const COINMARKET_API_KEY = process.env.COINMARKET_API_KEY || "00";
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "00";
+const PRIVATE_KEY =
+  process.env.PRIVATE_KEY || "0000000000000000000000000000000000000000000000000000000000000000";
+const COINMARKET_API_KEY = process.env.COINMARKET_API_KEY || "0000000000000000000000000000000";
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "000000000000000000000000000000000";
 
 module.exports = {
   solidity: "0.8.8",
